@@ -5,5 +5,5 @@
 
 
 
-![example](mockup/seaHorse.jpeg)
+![example](mockup/animation.gif)
 

@@ -89,7 +89,7 @@ div {
   background-color: red;
   font-weight: bold;
   position: relative;
-  animation: example 5s infinite;
+  animation: example 5s 3s infinite;
 }
 #div1 {
   animation-timing-function: linear;
