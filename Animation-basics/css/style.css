@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.6rem;
+}
+
+/* Part-1 */
+
+/* .container {
+  background-color: grey;
+  height: 300px;
+  width: 300px;
+}
+.item {
+  background-color: green;
+  height: 50%;
+  width: 50%;
+  transition: transform 2s ease 3s;
+  animation: left-to-right 1s ease-in infinite alternate;
+}
+.container:hover .item {
+  background-color: hotpink;
+  transform: translateX(100%);
+}
+.container:hover .item {
+  animation-play-state: paused;
+}
+
+@keyframes left-to-right {
+  0% {
+    transform: translate(0);
+  }
+  33% {
+    transform: translateY(100%);
+  }
+  66% {
+    transform: translate(100%) translateY(100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+} */
+
+/* Part-2 */
+
+/* div {
+  width: 500px;
+  height: 500px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: 1s;
+  animation-iteration-count: 10; 
+  animation-play-state: paused; 
+ } 
+ div:hover {  
+        animation-play-state: running;
+      } 
+
+@keyframes example { 
+
+   0% {
+    background-color: black;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: blue;
+  }
+  100% {
+    background-color: green;
+  }
+}  */
+
+/* Part-3 */
+
+div {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  font-weight: bold;
+  position: relative;
+  animation: example 5s infinite;
+}
+#div1 {
+  animation-timing-function: linear;
+}
+#div2 {
+  animation-timing-function: ease;
+}
+#div3 {
+  animation-timing-function: ease-in;
+}
+#div4 {
+  animation-timing-function: ease-out;
+}
+#div5 {
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes example {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 500px;
+  }
+}
